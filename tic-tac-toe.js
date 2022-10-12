@@ -138,7 +138,7 @@ var restart = document.getElementsByClassName("btn");
 restart.addEventListener("click", reset);
 
 function reset(){
-    for(var i=0; i<3; i++){
+    for(var i=0; i<board.length; i++){
         board[i].innerHTML='';
         board[i].classList.remove("X");
         board[i].classList.remove("O");
